@@ -1,0 +1,64 @@
+:root {
+  --primary: #4628ff;
+  --warning: #ffd028;
+  --danger: #eb3f27;
+  --success: #75fa83;
+  --white: #fdfdfd;
+  --dark: #181717;
+  --gray:#252424;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+/* ----------- Button Colors and Styles --------------*/
+
+.btn--primary--solid {
+  background-color: transparent;
+  color: var(--white);
+  border: 2px solid #7c6868;
+  margin-top: 15px;
+}
+
+.btn--dark--solid {
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--dark);
+    margin-top: 15px;
+  }
+
+
+.btn--primary--outline {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+
+.btn--dark--outline {
+    background-color: transparent;
+    color: var(--dark);
+    border: 2px solid var(--dark);
+  }
+
+
+/* --------- Button Sizes ------------ */
+
+.btn--medium {
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 15px;
+}
